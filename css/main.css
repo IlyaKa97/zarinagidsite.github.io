@@ -296,26 +296,23 @@ header {
 .first1 {
 
   background: url("https://raw.githubusercontent.com/IlyaKa97/zarinagidsite.github.io/master/img/Poster.jpg") no-repeat center center;
-  background-size:auto;
-  width: 100%;
-  padding: 50px 10px 60px 10px;
-  height: 60vh;
+ background-size: cover;
+
+  height: 70vh;
 }
 .first2 {
 
   background: url("https://raw.githubusercontent.com/IlyaKa97/zarinagidsite.github.io/master/img/Poster_2.jpg") no-repeat center center;
-  background-size:auto;
-  width: 100%;
-  padding: 50px 10px 60px 10px;
-  height: 60vh;
+  background-size: cover;
+
+   height: 70vh;
 }
 .first3 {
 
   background: url("https://raw.githubusercontent.com/IlyaKa97/zarinagidsite.github.io/master/img/Poster.jpg") no-repeat center center;
-  background-size:auto;
-  width: 100%;
-  padding: 50px 10px 60px 10px;
-  height: 60vh;
+  background-size: cover;
+
+   height: 70vh;
 }
 .header-info {
   position: absolute;
@@ -505,7 +502,7 @@ footer {
 }
 .pricing-table.active {
   box-shadow: 0px 0px 12px rgba(41,46,50,0.6);
-  position: absolute;
+  position: static;
   margin: auto;
   z-index: 200;
   border-top-left-radius: 10px;
@@ -593,8 +590,11 @@ footer {
     border-radius: 0;
 }
 
+.centerpost{
 
+position: sticky;
 
+}
 
 /* ==========================================================================
    Form styles
