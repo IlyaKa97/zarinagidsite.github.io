@@ -386,7 +386,15 @@ header {
 	padding: 200px 0px;
 }
 
-.pad-lg {
+.backimg {
+  background: url(../img/Zarina_back_invite.jpg)  no-repeat center center;
+ padding: 160px 0px;
+}
+
+.black1 {
+  color: white ;
+}
+.pad-lg1 {
   background-color:#ff0000;
 	padding: 160px 0px;
 }
@@ -458,13 +466,13 @@ hr.line {
 }
 
 .fa-envelope-o {
-  color: #fe0000;
+  color: white;
   font-size: 22px;
   display: block;
   padding-top: 15px;
   width: 60px;
   height: 60px;
-  border: 2px solid #fe0000;
+  border: 2px solid white;
   -moz-border-radius: 30px;
   -o-border-radius: 30px;
   -webkit-border-radius: 30px;
