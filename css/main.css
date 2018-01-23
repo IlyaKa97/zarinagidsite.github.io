@@ -12,11 +12,13 @@
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VT323', monospace;
+
 }
 
 p, .lead {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'VT323', monospace;
+
 }
 
 h1 {
@@ -398,7 +400,12 @@ header {
 }
 
 .pad-xl {
-  background: #0d0000;
+
+    background: url(../img/Zarina_back_main_info.jpg)  no-repeat center center;
+}
+
+.textcolor {
+  color: #0d0000;
 }
 
 
@@ -495,13 +502,14 @@ footer {
 }
 
 .pricing-container {
+
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .pricing-table {
   background: transparent;
-  margin-bottom: 50px;
+  margin-bottom: -70px;
   margin-top: 0px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
