@@ -210,6 +210,11 @@ a:hover, a:focus {
   color: #ffffff;
 }
 
+
+.hcolortext{
+
+  color: #000000;
+}
 .black-bg {
   background: ##000000;
 }
